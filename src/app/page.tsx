@@ -68,14 +68,9 @@ export default function Home() {
             <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-8 shadow-2xl border border-gray-700 hover:border-red-500/50 transition-all duration-300">
               <div className="relative aspect-square mb-8 bg-gradient-to-br from-gray-700 to-gray-800 rounded-2xl overflow-hidden flex items-center justify-center">
                 <img 
-                  src="https://images.unsplash.com/photo-1568702846914-96b305d2uj46?w=800&h=800&fit=crop"
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/800px-Red_Apple.jpg"
                   alt="Premium Red Apple"
                   className="w-full h-full object-cover"
-                  onError={(e) => {
-                    // Fallback to emoji if image fails
-                    e.currentTarget.style.display = 'none';
-                    e.currentTarget.parentElement!.innerHTML = '<span class="text-[200px]">🍎</span>';
-                  }}
                 />
                 {/* Overlay gradient */}
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900/50 to-transparent pointer-events-none" />
