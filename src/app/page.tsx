@@ -68,7 +68,7 @@ export default function Home() {
             <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-3xl p-8 shadow-2xl border border-gray-700 hover:border-red-500/50 transition-all duration-300">
               <div className="relative aspect-square mb-8 bg-gradient-to-br from-gray-700 to-gray-800 rounded-2xl overflow-hidden flex items-center justify-center">
                 <img 
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Red_Apple.jpg/800px-Red_Apple.jpg"
+                  src="https://images.pexels.com/photos/102104/pexels-photo-102104.jpeg?auto=compress&cs=tinysrgb&w=800"
                   alt="Premium Red Apple"
                   className="w-full h-full object-cover"
                 />
